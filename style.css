@@ -1,0 +1,127 @@
+/* Cores baseadas no tema de sustentabilidade e agro */
+:root {
+--verde-escuro: #1b4d3e;
+--verde-claro: #2e7d32;
+--bege-fundo: #f4f6f0;
+--texto-escuro: #212121;
+--branco: #ffffff;
+}
+
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: var(--bege-fundo);
+color: var(--texto-escuro);
+margin: 0;
+padding: 0;
+}
+
+/* Barra de Acessibilidade */
+.barra-acessibilidade {
+background-color: #333;
+color: white;
+padding: 10px;
+text-align: right;
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+
+.barra-acessibilidade button {
+background-color: var(--verde-claro);
+color: white;
+border: none;
+padding: 8px 12px;
+margin-left: 5px;
+cursor: pointer;
+font-weight: bold;
+border-radius: 4px;
+transition: background-color 0.2s;
+}
+
+.barra-acessibilidade button:hover,
+.barra-acessibilidade button:focus {
+background-color: var(--verde-escuro);
+outline: 2px solid #fff;
+}
+
+/* Cabeçalho */
+header {
+background-color: var(--verde-escuro);
+color: var(--branco);
+text-align: center;
+padding: 40px 20px;
+}
+
+header h1 {
+margin: 0;
+font-size: 2.5rem;
+}
+
+header p {
+font-size: 1.3rem;
+margin-top: 10px;
+font-style: italic;
+}
+
+/* Conteúdo Principal */
+main {
+max-width: 900px;
+margin: 20px auto;
+padding: 20px;
+background-color: var(--branco);
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+transition: font-size 0.2s ease;
+}
+
+section {
+margin-bottom: 40px;
+}
+
+h2 {
+color: var(--verde-escuro);
+border-bottom: 2px solid var(--verde-claro);
+padding-bottom: 10px;
+}
+
+p {
+text-align: justify;
+}
+
+/* Container do Vídeo Responsivo */
+.video-container {
+position: relative;
+padding-bottom: 56.25%; /* Proporção 16:9 */
+height: 0;
+overflow: hidden;
+max-width: 100%;
+background: #000;
+margin-top: 20px;
+border-radius: 6px;
+}
+
+.video-container iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 0;
+}
+
+/* Rodapé */
+footer {
+text-align: center;
+padding: 20px;
+background-color: var(--verde-escuro);
+color: var(--branco);
+margin-top: 40px;
+}
+
+/* Responsividade para Celulares */
+@media (max-width: 600px) {
+header h1 { font-size: 1.8rem; }
+header p { font-size: 1rem; }
+main { margin: 10px; padding: 15px; }
+}
