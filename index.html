@@ -1,53 +1,482 @@
-html lang="pt-BR">
-
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agrinho Paraná 2026 - Agro Forte, Futuro Sustentável</title>
+
+<title>Redes Sociais e Acessibilidade</title>
+
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="barra-acessibilidade" role="toolbar" aria-label="Ferramentas de Acessibilidade">
-<span>Acessibilidade:</span>
-<button onclick="alterarFonte(1)" aria-label="Aumentar tamanho do texto">A+</button>
-<button onclick="alterarFonte(-1)" aria-label="Diminuir tamanho do texto">A-</button>
-<button onclick="resetarFonte()" aria-label="Restaurar tamanho do texto original">Texto Normal</button>
+<!-- Barra de acessibilidade -->
+<div class="acessibilidade" aria-label="Ferramentas de acessibilidade">
+
+<button id="aumentarFonte"
+aria-label="Aumentar tamanho da fonte">
+A+
+</button>
+
+<button id="diminuirFonte"
+aria-label="Diminuir tamanho da fonte">
+A-
+</button>
+
+<button id="contraste"
+aria-label="Ativar ou desativar alto contraste">
+🌓 Contraste
+</button>
+
+<button id="modoEscuro"
+aria-label="Ativar ou desativar modo escuro">
+🌙 Modo escuro
+</button>
+
+<button id="lerPagina"
+aria-label="Ler o conteúdo da página em voz alta">
+🔊 Ler página
+</button>
+
+<button id="pararLeitura"
+aria-label="Parar leitura">
+⏹️ Parar
+</button>
+
 </div>
 
+
+<!-- Cabeçalho -->
 <header>
-<h1>Agrinho Paraná 2026</h1>
-<p>Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente</p>
+
+<nav aria-label="Menu principal">
+
+<div class="logo">
+<span aria-hidden="true">🌐</span>
+Redes Sociais
+</div>
+
+<ul>
+<li>
+<a href="#inicio">Início</a>
+</li>
+
+<li>
+<a href="#historia">História</a>
+</li>
+
+<li>
+<a href="#objetivo">Objetivo</a>
+</li>
+
+<li>
+<a href="#profissional">Profissional</a>
+</li>
+
+<li>
+<a href="#dicas">Dicas</a>
+</li>
+</ul>
+
+</nav>
+
 </header>
 
-<main id="conteudo-principal">
 
-<section>
-<h2>O Equilíbrio Necessário</h2>
-<p>O Programa Agrinho 2026 nos convida a refletir sobre o papel vital da agricultura em nossas vidas e a urgência de protegermos o planeta. Um <strong>Agro Forte</strong> não significa apenas produzir em larga escala, mas sim produzir com inteligência, utilizando tecnologias que preservem o solo, a água e a biodiversidade.</p>
-<p>A sustentabilidade é o caminho para garantir que as futuras gerações também tenham recursos para plantar, colher e viver com qualidade. O equilíbrio entre o campo e a natureza é o que move o nosso futuro.</p>
-</section>
+<main id="conteudo">
 
-<section>
-<h2>Vídeo Informativo</h2>
-<p>Assista ao vídeo abaixo para entender melhor como as práticas sustentáveis transformam o dia a dia no campo e protegem o nosso ecossistema.</p>
 
-<div class="video-container">
-<iframe
-src="https://wdQw4w9WgXcQww.youtube.com/embed/"
-title="Vídeo informativo sobre Agro Forte e Futuro Sustentável - Agrinho 2026"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-</iframe>
+<!-- Introdução -->
+<section id="inicio" class="hero">
+
+<div class="hero-text">
+
+<p class="destaque">
+CONECTANDO PESSOAS E OPORTUNIDADES
+</p>
+
+<h1>
+Redes Sociais
+</h1>
+
+<p>
+As redes sociais fazem parte da vida de milhões de pessoas.
+Elas permitem comunicação, entretenimento, aprendizado,
+divulgação de ideias e também podem ser utilizadas para
+construir uma carreira profissional.
+</p>
+
+<a href="#historia" class="botao">
+Conheça essa história
+</a>
+
 </div>
+
 </section>
+
+
+<!-- História -->
+<section id="historia" class="secao">
+
+<div class="titulo">
+
+<span aria-hidden="true">📖</span>
+
+<div>
+<p class="destaque">COMO TUDO COMEÇOU</p>
+
+<h2>
+A história das redes sociais
+</h2>
+</div>
+
+</div>
+
+<div class="conteudo">
+
+<p>
+As redes sociais surgiram a partir da evolução da internet
+e da necessidade das pessoas de se comunicarem virtualmente.
+</p>
+
+<p>
+Um dos primeiros exemplos de redes sociais foi o
+<strong>SixDegrees</strong>, lançado em 1997. A plataforma
+permitia criar perfis e adicionar amigos.
+</p>
+
+<p>
+Com o passar dos anos, surgiram novas plataformas,
+como Orkut, Facebook, YouTube, Instagram, LinkedIn,
+TikTok e diversas outras.
+</p>
+
+<p>
+Atualmente, as redes sociais são utilizadas para comunicação,
+informação, entretenimento, educação, negócios e trabalho.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- Objetivo -->
+<section id="objetivo" class="secao destaque-fundo">
+
+<div class="titulo">
+
+<span aria-hidden="true">🎯</span>
+
+<div>
+<p class="destaque">PARA QUE SERVEM?</p>
+
+<h2>
+O intuito das redes sociais
+</h2>
+</div>
+
+</div>
+
+
+<div class="cards">
+
+<article class="card">
+
+<span class="icone" aria-hidden="true">
+💬
+</span>
+
+<h3>
+Comunicação
+</h3>
+
+<p>
+Facilitar a comunicação entre pessoas,
+empresas, grupos e comunidades.
+</p>
+
+</article>
+
+
+<article class="card">
+
+<span class="icone" aria-hidden="true">
+📚
+</span>
+
+<h3>
+Educação
+</h3>
+
+<p>
+Compartilhar conhecimentos, cursos,
+notícias e conteúdos educativos.
+</p>
+
+</article>
+
+
+<article class="card">
+
+<span class="icone" aria-hidden="true">
+🎬
+</span>
+
+<h3>
+Entretenimento
+</h3>
+
+<p>
+Oferecer vídeos, músicas, jogos,
+transmissões e conteúdos diversos.
+</p>
+
+</article>
+
+
+<article class="card">
+
+<span class="icone" aria-hidden="true">
+💼
+</span>
+
+<h3>
+Negócios
+</h3>
+
+<p>
+Divulgar produtos, serviços e construir
+relacionamentos com clientes.
+</p>
+
+</article>
+
+</div>
+
+</section>
+
+
+<!-- Crescimento profissional -->
+<section id="profissional" class="secao">
+
+<div class="titulo">
+
+<span aria-hidden="true">🚀</span>
+
+<div>
+<p class="destaque">
+CONSTRUA SUA CARREIRA
+</p>
+
+<h2>
+Como crescer profissionalmente
+</h2>
+</div>
+
+</div>
+
+
+<div class="profissional">
+
+<article>
+
+<span aria-hidden="true">1️⃣</span>
+
+<div>
+
+<h3>
+Crie um perfil profissional
+</h3>
+
+<p>
+Utilize uma foto adequada, uma descrição clara
+e informe suas principais habilidades.
+</p>
+
+</div>
+
+</article>
+
+
+<article>
+
+<span aria-hidden="true">2️⃣</span>
+
+<div>
+
+<h3>
+Compartilhe conhecimento
+</h3>
+
+<p>
+Publique conteúdos relacionados à sua área.
+Ensine, explique e compartilhe experiências.
+</p>
+
+</div>
+
+</article>
+
+
+<article>
+
+<span aria-hidden="true">3️⃣</span>
+
+<div>
+
+<h3>
+Construa relacionamentos
+</h3>
+
+<p>
+Conecte-se com profissionais, empresas,
+especialistas e pessoas que possuem interesses
+semelhantes.
+</p>
+
+</div>
+
+</article>
+
+
+<article>
+
+<span aria-hidden="true">4️⃣</span>
+
+<div>
+
+<h3>
+Seja consistente
+</h3>
+
+<p>
+Mantenha uma frequência de publicação e
+procure melhorar continuamente seus conteúdos.
+</p>
+
+</div>
+
+</article>
+
+
+<article>
+
+<span aria-hidden="true">5️⃣</span>
+
+<div>
+
+<h3>
+Cuide da sua imagem digital
+</h3>
+
+<p>
+Pense antes de publicar. Seu comportamento
+nas redes pode influenciar sua imagem profissional.
+</p>
+
+</div>
+
+</article>
+
+</div>
+
+</section>
+
+
+<!-- Dicas -->
+<section id="dicas" class="secao destaque-fundo">
+
+<div class="titulo">
+
+<span aria-hidden="true">💡</span>
+
+<div>
+
+<p class="destaque">
+USE AS REDES AO SEU FAVOR
+</p>
+
+<h2>
+Dicas importantes
+</h2>
+
+</div>
+
+</div>
+
+
+<div class="lista-dicas">
+
+<p>
+✅ Tenha um objetivo claro para utilizar cada rede social.
+</p>
+
+<p>
+✅ Conheça o público que deseja alcançar.
+</p>
+
+<p>
+✅ Produza conteúdos úteis e relevantes.
+</p>
+
+<p>
+✅ Evite copiar conteúdos de outras pessoas.
+</p>
+
+<p>
+✅ Respeite opiniões e diferenças.
+</p>
+
+<p>
+✅ Proteja suas informações pessoais.
+</p>
+
+<p>
+✅ Mantenha seus perfis profissionais atualizados.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- Conclusão -->
+<section class="conclusao">
+
+<h2>
+Use a tecnologia para criar oportunidades.
+</h2>
+
+<p>
+As redes sociais podem ser muito mais do que ferramentas
+de entretenimento. Quando utilizadas de forma consciente,
+podem ajudar você a aprender, criar conexões e desenvolver
+sua carreira.
+</p>
+
+</section>
+
 
 </main>
 
+
+<!-- Rodapé -->
 <footer>
-<p>&copy; 2026 - Desenvolvido para o Concurso Agrinho Paraná.</p>
+
+<p>
+© 2026 - Redes Sociais e Acessibilidade
+</p>
+
+<p>
+Página desenvolvida com foco em acessibilidade.
+</p>
+
 </footer>
 
+
 <script src="script.js"></script>
+
 </body>
 </html>
